@@ -1,0 +1,9 @@
+.TodoList {}
+.TodoList ul {}
+.TodoList ul li { overflow: hidden;   background:#90A4AE; border-bottom: 1px solid #dcdcdc; padding:10px 30px 5px; box-sizing: border-box; }
+.TodoList ul li span { display: block;line-height: 30px; cursor: pointer; font-size: 30px; margin-right: 20px;  vertical-align: middle;  float: left; color:#fff}
+.TodoList ul li p {cursor: pointer;line-height: 30px; font-size: 30px; width: 300px; float: left; box-sizing:border-box; padding-top: 5px;  color:#fff}
+.TodoList ul li button { height: 40px; vertical-align: middle; width: 80px; float: right; background: #efefef; border:none}
+
+.TodoList ul li span.active { color:yellow ; text-decoration: line-through;}
+.TodoList ul li p.active { color:yellow ; text-decoration: line-through;}

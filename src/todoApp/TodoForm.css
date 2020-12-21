@@ -1,0 +1,4 @@
+.TodoForm { margin: 0;padding: 0; border:none }
+.TodoForm { padding: 30px; box-sizing: border-box; background: #000; width: 100%; text-align: center; background: #CFD8DC;}
+.TodoForm input { width: 400px; height: 45px; border:none; vertical-align: top; padding-left: 20px; outline: none; }
+.TodoForm button { height: 40px; border:none; margin-top: 0; vertical-align: top; width:100px; height: 45px; background: #333; color:#fff;}

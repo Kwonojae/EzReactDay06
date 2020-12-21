@@ -1,0 +1,44 @@
+.Modal {
+}
+.Modal .bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.Modal .popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+}
+.Modal .popup h2 {
+  font-size: 30px;
+}
+.Modal .popup div {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.Modal .popup div iframe {
+  width: 100%;
+  height: 500px;
+}
+.Modal .popup h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.Modal .popup .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}

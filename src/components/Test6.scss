@@ -1,0 +1,47 @@
+.Test6 {
+  width: 100%;
+  .inner {
+    width: 1200px;
+    margin: auto;
+    h2 {
+      text-align: center;
+      font-size: 40px;
+    }
+    h2 + p {
+      text-align: center;
+      font-size: 18px;
+    }
+    ul {
+      margin-top: 30px;
+      display: flex;
+      li {
+        width: 280px;
+        margin-right: 40px;
+        div {
+          width: 280px;
+          height: 380px;
+          overflow: hidden;
+          img {
+            transition: 0.3s;
+          }
+          &:hover {
+            img {
+              transform: scale(1.2);
+            }
+          }
+        }
+        h3 {
+          font-size: 20px;
+          margin-top: 15px;
+          margin-bottom: 15px;
+          span {
+            display: block;
+          }
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

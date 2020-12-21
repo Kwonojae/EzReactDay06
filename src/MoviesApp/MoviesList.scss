@@ -1,0 +1,35 @@
+.MoviesList {
+  width: 550px;
+  table {
+    width: 100%;
+    .w1 {
+    }
+    .w2 {
+      width: 20%;
+    }
+    .w3 {
+      width: 20%;
+    }
+    .w4 {
+      width: 15%;
+    }
+    th,
+    td {
+      height: 50px;
+      border-bottom: 1px solid #dcdcdc;
+      text-align: center;
+    }
+    tr {
+      td {
+        &:first-child {
+          text-align: left;
+        }
+      }
+      &:hover {
+        td {
+          background: #dcdcdc;
+        }
+      }
+    }
+  }
+}

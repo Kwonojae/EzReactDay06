@@ -1,0 +1,19 @@
+추가 설치
+
+* styled-componentst설치
+yarn add styled-components
+
+* 외부데이터 설치
+yarn add axios
+
+* sass 설치
+yarn add sass 
+
+* 숫자 컴마 형식
+yarn add numeral
+
+* icon 설치
+yarn add react-icons
+
+* 년월일 설치
+yarn add  moment
